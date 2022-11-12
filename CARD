@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <head>
+        <style>
+            img {
+                width: 50%;
+                border-radius: 12px;
+                height: 50%;
+                object-fit: cover;
+            }
+            
+            body {
+                background-color: #186989;
+                font-family: "Raleway", sans-serif;
+                text-align: center;
+                font-size: large;
+            }
+            
+            p {
+                color: rgba(30, 8, 8, 0.952);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            
+            button {
+                border: none;
+                padding: 12px 24px;
+                border-radius: 50px;
+                font-weight: 600;
+                color: #0077ff;
+                background-color: #e0efff;
+                margin: 0 auto;
+                display: block;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="card">
+
+
+            <div class="card__details">
+
+
+                <span class="tag">Mohammad</span>
+
+                <span class="tag">Sefidgar</span>
+
+                <div class="name">......</div>
+
+                <p>Hey Im Mohammad Im frome Iran. I have been living in London for 4 years.Im student at CYF.</p>
+
+                <button>Read more</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
